@@ -2,13 +2,34 @@
 
 This project utilizes geographic coordinates to generate location-based data, integrates with Spotify's API to create personalized playlists, and leverages OpenCage's geolocation API for location information. The project demonstrates combining data from different APIs to create an interactive music experience based on specific geographic locations. 
 
-1. [Features](#-features)
-2. [Prerequisites](#-prerequisites)
-3. [Setup](#-setup)
-4. [Usage](#-usage)
-5. [Files](#-files)
-6. [Example CSV Format](#-example-csv-format)
-7. [Notes](#-notes)
+
+
+Here’s a suggested table of contents for your README in Typora. This structure will help users navigate your project easily:
+
+------
+
+# Table of Contents
+
+1. [Project Overview](#spotify-location-based-playlist-project)
+2. [Features](#features)
+3. Prerequisites
+   - [Software Requirements](#software-requirements)
+   - [Library Installation](#library-installation)
+4. Setup
+   - [Spotify API Credentials](#spotify-api-credentials)
+   - [OpenCage API Key](#opencage-api-key)
+   - [Running the Program](#running-the-program)
+5. Usage
+   - [Input Coordinates](#input-coordinates)
+   - [Geolocation Lookup](#geolocation-lookup)
+   - [Spotify Playlist Creation](#spotify-playlist-creation)
+   - [Playback on Spotify](#playback-on-spotify)
+6. Files
+   - [`spotify_keys.json`](#spotify_keysjson)
+   - [`OpenCage_key.txt`](#opencage_keytxt)
+   - [`coordinares.csv`](#coordinarescsv)
+7. [Example CSV Format](#example-csv-format)
+8. [Notes](#notes)
 
 
 
