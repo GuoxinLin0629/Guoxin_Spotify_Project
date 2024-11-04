@@ -2,7 +2,7 @@
 
 This project utilizes geographic coordinates to generate location-based data, integrates with Spotify's API to create personalized playlists, and leverages OpenCage's geolocation API for location information. The project demonstrates combining data from different APIs to create an interactive music experience based on specific geographic locations. 
 
-![](C:\Users\Guoxin Lin\Pictures\Screenshots\Screenshot 2024-11-04 161027.png)
+
 
 ## Contents
 
