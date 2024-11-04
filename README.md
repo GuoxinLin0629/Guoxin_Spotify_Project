@@ -4,20 +4,23 @@ This project utilizes geographic coordinates to generate location-based data, in
 
 
 
-Here’s a suggested table of contents for your README in Typora. This structure will help users navigate your project easily:
+## Contents
 
-------
+[Project Overview](#spotify-location-based-playlist-project)
 
-# Table of Contents
+[Features](#features)
 
-1. [Project Overview](#spotify-location-based-playlist-project)
-2. [Features](#features)
-3. [Prerequisites](#prerequisites)
-4. [Setup](#setup)
-5. [Usage](#usage)
-6. [Files](#files)
-7. [Example CSV Format](#example-csv-format)
-8. [Notes](#notes)
+[Prerequisites](#prerequisites)
+
+[Setup](#setup)
+
+[Usage](#usage)
+
+[Files](#files)
+
+[Example CSV Format](#example-csv-format)
+
+[Notes](#notes)
 
 
 
