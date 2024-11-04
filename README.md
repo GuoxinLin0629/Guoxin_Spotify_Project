@@ -62,7 +62,7 @@ pip install requests spotipy pandas
 
 
 
-### Setup
+### Set up
 
 - **Spotify API Credentials**: In your Spotify Developer Dashboard, create a new app to receive the `client_id`, `client_secret`, and `redirect_uri`.
 - **OpenCage API Key**: Place your OpenCage API key in a text file named `OpenCage_key.txt` for secure access.
