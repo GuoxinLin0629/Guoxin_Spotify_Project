@@ -1,5 +1,5 @@
 venv/
 .cache-314qipe2nxyhqxkqddeo36x4mk7i
 .cache
-OpenCage_key
-spotify_keys
+OpenCage_key.txt
+spotify_keys.json
