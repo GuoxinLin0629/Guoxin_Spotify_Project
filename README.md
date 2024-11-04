@@ -14,8 +14,8 @@ Here’s a suggested table of contents for your README in Typora. This structure
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
 4. [Setup](#setup)
-5. Usage
-6. Files
+5. [Usage](#usage)
+6. [Files](#files)
 7. [Example CSV Format](#example-csv-format)
 8. [Notes](#notes)
 
