@@ -1,12 +1,14 @@
 # Spotify Location-Based Playlist Project
 
-This project utilizes geographic coordinates to generate location-based data, integrates with Spotify's API to create personalized playlists, and leverages OpenCage's geolocation API for location information. The project demonstrates combining data from different APIs to create an interactive music experience based on specific geographic locations.
-
-![Screenshot 2024-11-04 161027](C:\Users\Guoxin Lin\Pictures\Screenshots\Screenshot 2024-11-04 161027.png)
+This project utilizes geographic coordinates to generate location-based data, integrates with Spotify's API to create personalized playlists, and leverages OpenCage's geolocation API for location information. The project demonstrates combining data from different APIs to create an interactive music experience based on specific geographic locations. 
 
 
 
-## Features
+[TOC]
+
+
+
+### Features
 
 - **Geolocation Lookup**: Uses OpenCage API to convert coordinates (latitude, longitude) to human-readable location details such as city and country.
 - **Spotify Integration**: Integrates with Spotify using Spotipy library for OAuth authentication to access user playlists and create new ones. 
@@ -14,7 +16,7 @@ This project utilizes geographic coordinates to generate location-based data, in
 
 
 
-## Prerequisites
+### Prerequisites
 
 1. To set up and run this application, you need the following:
 
@@ -46,13 +48,13 @@ pip install requests spotipy pandas
 
 
 
-## Setup
+### Setup
 
 - **Spotify API Credentials**: In your Spotify Developer Dashboard, create a new app to receive the `client_id`, `client_secret`, and `redirect_uri`.
 - **OpenCage API Key**: Place your OpenCage API key in a text file named `OpenCage_key.txt` for secure access.
 - **Running the Program**: Run the main script and follow the prompts to input your geographic coordinates and access Spotify's playlist features.
 
-## Usage
+### Usage
 
 - **Input Coordinates**: Launch the application and enter the latitude and longitude of your desired location.
 - **Geolocation Lookup**: The app uses OpenCage to retrieve the city and country details associated with the coordinates.
@@ -61,7 +63,7 @@ pip install requests spotipy pandas
 
 
 
-## Files
+### Files
 
 - **`spotify_keys.json`**: Contains your Spotify API credentials (`client_id`, `client_secret`, and `redirect_uri`). This file is required for authenticating and accessing Spotify’s API. 
     - **Example Format**:
@@ -79,7 +81,7 @@ pip install requests spotipy pandas
 
 
 
-## Example CSV Format
+### Example CSV Format
 
 The `coordinares.csv` file should include columns for latitude and longitude. For example:
 
@@ -90,6 +92,6 @@ The `coordinares.csv` file should include columns for latitude and longitude. Fo
 
 
 
-## Notes
+### Notes
 
 Ensure all files (`spotify_keys.json`, `OpenCage_key.txt`, and `coordinares.csv`) are in the main project directory for seamless access by the script.
