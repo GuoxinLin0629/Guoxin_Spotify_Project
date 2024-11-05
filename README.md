@@ -2,7 +2,7 @@
 
 This project utilizes geographic coordinates to generate location-based data, integrates with Spotify's API to create personalized playlists, and leverages OpenCage's geolocation API for location information. The project demonstrates combining data from different APIs to create an interactive music experience based on specific geographic locations. 
 
-
+{Guoxin_SpotifyProject.ipynb} only contains the Spotify API and OpenCage API, demonstrating how to generate a playlist from coordinates. {Guoxin_SpotifyProject_3.ipynb} adds Geoapify API, extracting keywords from addresses to generate coordinate playlists.
 
 ## Contents
 
@@ -113,3 +113,4 @@ The `coordinares.csv` file should include columns for latitude and longitude. Fo
 ### Notes
 
 Ensure all files (`spotify_keys.json`, `OpenCage_key.txt`, and `coordinares.csv`) are in the main project directory for seamless access by the script.
+
